@@ -35,7 +35,7 @@ body{
 }
 
 header.primary {
-    background-color: gainsboro;
+    background-color: #3b638b;
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px #000000;
@@ -76,6 +76,45 @@ header.primary h2{
     flex-direction: row;
     justify-content: space-around;
     gap: 2rem;
+}
+
+#blog .post{
+    box-shadow: 0 8px 16px 
+    rgba(0, 0, 0, .6);
+    padding:10px
+    border-radius:4px;
+    font-size:.8rem;
+    transition:.5s;
+}
+
+#blog figure{
+    margin:0;
+}
+
+#blog figcaption{
+    text-transform: uppercase;
+    font-size:.6rem;
+    text-align: center;
+    color:#c0c0c0;
+}
+
+#blog header{
+    padding-top: 10px;
+    font-size:.6rem;
+    color: #c0c0c0;
+}
+
+#blog header h2{
+    margin:0;
+}
+
+#blog h2 a{
+    color:#3b638b;
+}
+
+#blog .post:hover{
+    box-shadow: 0 8px 16px 
+    rgba(0, 0, 0, .6)
 }
 
 header.primary nav{

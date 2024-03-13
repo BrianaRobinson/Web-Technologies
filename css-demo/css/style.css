@@ -76,6 +76,9 @@ header.primary h2{
     flex-direction: row;
     justify-content: space-around;
     gap: 2rem;
+    border-bottom:1px dotted #c0c0c0;
+    padding: 2rem 0;
+    border-top:1px dotted #c0c0c0;
 }
 
 #blog .post{
@@ -133,6 +136,38 @@ header.primary ul li{
     list-style-type: none;
 }
 
+aside[role="complementary"]{
+    background-color: #3b638b;
+    color:#fff;
+    padding:1.9rem;
+}
+
+aside .container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:60px;
+}
+
+aside .container a:last-of-type{
+    display:block;
+    color:#fff;
+    text-align: right;
+    margin-top: 1.9rem;
+}
+
+aside .widget footer{
+    display:none;
+}
+
+#colophon{
+    background-color: #3b638b;
+    text-align: center;
+    padding: 10px;
+    color:#fff;
+    font-size: 1.1rem;
+}
+
 header.primary nav a{
     color: #fff;
     text-decoration: none;
@@ -158,7 +193,11 @@ header.primary nav a:hover{
         margin:auto;
     }
 }
-
 header.primary nav a{
     display:block;
+}
+
+#practice h2{
+    color:#3b638b
+    border-bottom: 1px solid #c0c0c0;
 }

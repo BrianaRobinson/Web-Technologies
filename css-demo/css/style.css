@@ -10,6 +10,31 @@ body{
     margin: 40px auto;
 }
 
+.img-right {
+    float: right;
+    margin: 10px 0 10px 20px;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 50px;
+  }
+  
+  .img-left {
+    float: left;
+    margin: 10px 20px 10px 0;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 50px;
+  }
+  
+  .img-center {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    border-radius: 50px;
+  }
+
+
 /*-------------Responsive Images------------*/
 
 img{
@@ -33,6 +58,28 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin:0;
 }
+  /* Background Example 
+  background: no-repeat center/50% url("../img/kitten.webp");*/
+ 
+  
+  header.primary {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23FA0000' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    /*long form*/
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    /*Single value short hand*/
+    padding: 40px;
+    /* T,R,B,L */
+    padding: 20px 40px 20px 40px;
+    /* Two Value Top/Bottom / L/R */
+    padding: 20px 40px;
+  }
 
 header.primary {
     background-color: #3b638b;
@@ -111,6 +158,10 @@ header.primary h2{
     margin:0;
 }
 
+#blog a {
+    color: #ff0000;
+  }
+
 #blog h2 a{
     color:#3b638b;
 }
@@ -118,6 +169,11 @@ header.primary h2{
 #blog .post:hover{
     box-shadow: 0 8px 16px 
     rgba(0, 0, 0, .6)
+}
+
+#practice h2{
+    color: #3b638b;
+    border-bottom: 1px solid #c0c0c0;
 }
 
 header.primary nav{
@@ -181,8 +237,90 @@ header.primary nav a{
 header.primary nav a:hover{
     background-color:rgba(0, 0, 0, .8);
 }
-
-
+  
+table {
+    border: 1px solid #c0c0c0;
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+  }
+  caption {
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  th {
+    background-color: #020202;
+    color: #ffffff;
+    padding: 7.5px;
+  }
+  tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  tr:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  td:nth-child(2),
+  td:nth-child(3) {
+  }
+  
+  td:nth-child(n + 2) {
+    text-align: right;
+  }
+  
+  td {
+    border: 1px solid #ffffff;
+    padding: 5px;
+  }
+  
+  #practice ol {
+    list-style-type: lower-decimal;
+  }
+  
+  #practice ul ul {
+    list-style-type: square;
+  }
+  
+  dl dt {
+    font-weight: bold;
+  }
+  
+  dl dd {
+    margin: 0;
+  }
+  
+  dd + dt {
+    margin-top: 1rem;
+  }
+  
+  #practice blockquote {
+    border: 4px double #c0c0c0;
+    padding: 20px 40px;
+    margin: 40px 40px;
+    border-radius: 15px;
+    background-color: #ff0000;
+    color: #ffffff;
+    line-height: 1.4;
+    text-shadow: 1px 1px #000;
+  }
+  
+  #practice blockquote cite {
+    display: block;
+    text-align: right;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+  }
+  
+  #colophon {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23FA0000' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
 
 
 @media screen and (max-width:600px){
@@ -195,9 +333,4 @@ header.primary nav a:hover{
 }
 header.primary nav a{
     display:block;
-}
-
-#practice h2{
-    color:#3b638b
-    border-bottom: 1px solid #c0c0c0;
 }

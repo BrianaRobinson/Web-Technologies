@@ -1,5 +1,6 @@
 body{
   background-color: whitesmoke;
+  color: #fff;
 }
 
 /*-------------Utility Classes--------------*/
@@ -58,17 +59,9 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin:0;
   background-color: #000000;
-  color:white
+  background-image: url(https://wp.technologyreview.com/wp-content/uploads/2021/12/48953946911_7dae1036a2_o.jpg)
 }
 
-section.container{
- background-image: url(https://t3.ftcdn.net/jpg/03/36/82/74/360_F_336827452_boKLX0gAFYUT8gYJY4dHQhjZjkDpPFnr.jpg) ;
- background-size: cover;
-}
-
-section.secondary{
- background-image: url(https://www.nasa.gov/wp-content/uploads/2024/03/crew8launch030324.jpg?w=2048); 
-}
 
 header.primary {
   background-color: #000000d4;

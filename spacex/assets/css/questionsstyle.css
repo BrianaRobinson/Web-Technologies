@@ -58,17 +58,10 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin:0;
   background-color: #000000;
-  color:white
+  color:white;
+  background-image: url(https://t4.ftcdn.net/jpg/04/90/57/77/360_F_490577775_FJWG0sGo0OLoeBEcAIP4KSYjx1ofQ9o9.jpg);
 }
 
-section.container{
- background-image: url(https://t3.ftcdn.net/jpg/03/36/82/74/360_F_336827452_boKLX0gAFYUT8gYJY4dHQhjZjkDpPFnr.jpg) ;
- background-size: cover;
-}
-
-section.secondary{
- background-image: url(https://www.nasa.gov/wp-content/uploads/2024/03/crew8launch030324.jpg?w=2048); 
-}
 
 header.primary {
   background-color: #000000d4;

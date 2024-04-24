@@ -1,0 +1,46 @@
+/* Add <meta name="robots" content="noindex"> to the head of your document to avoid search engines from indexing this page. */
+
+
+
+html{
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-image: url(https://i.makeagif.com/media/11-27-2021/7DE0_V.gif);
+  background-size: cover;
+  width:100%;
+  height:100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:0;
+  background-color: #000000;
+  color:white;
+}
+
+.logo {
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container{
+  max-width: 960px;
+  width:80vw;
+  margin: 40px auto;
+}
+
+aside .widget footer{
+  display:none;
+}
+
+footer {
+  display: block;
+}

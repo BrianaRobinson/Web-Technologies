@@ -1,6 +1,13 @@
 body{
   background-color: whitesmoke;
-  color: #fff;
+}
+
+.logo {
+  width: 220px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /*-------------Utility Classes--------------*/
@@ -9,6 +16,36 @@ body{
   max-width: 960px;
   width:80vw;
   margin: 40px auto;
+}
+
+header.primary {
+  margin: 0;
+  padding: 0;
+  /* Set the height of the header to 100% of the viewport height */
+  height: 20vh;
+  background-color: #f2f2f2;
+}
+
+header.primary {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+} 
+
+
+.secondary{
+  max-width: 960px;
+  width:80vw;
+  margin: 40px auto;
+}
+
+header{
+  width: 100%;
+  margin:0;
 }
 
 .img-right {
@@ -57,23 +94,23 @@ html{
 
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin:0;
+  margin:20vh;
   background-color: #000000;
-  background-image: url(https://wp.technologyreview.com/wp-content/uploads/2021/12/48953946911_7dae1036a2_o.jpg)
+  color:white
 }
-
 
 header.primary {
   background-color: #000000d4;
   color: #fff;
   text-align: center;
   text-shadow: 2px 2px #0000005b;
-  padding: 20px 40px 20px 40px;
-  margin: 20px 0 0;
+  padding: 10px 80px 50px 80px;
+  margin: 0;
+
 }
 
 header.primary h1{
-  font-size: 2.4rem;
+  font-size: 1.2rem;
 }
 
 header.primary h1 a{
@@ -81,13 +118,21 @@ header.primary h1 a{
   text-decoration: none;
 }
 
+
+
+
 #content{
   line-height: 1.5;
 }
 
 header.primary h2{
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+}
+  
+  header.primary nav a{
+  margin: 0;
+  font-size: 1.8rem;
 }
 
 #content h2{
@@ -192,7 +237,6 @@ aside .widget footer{
 }
 
 #colophon{
-  background-color: #ffffff;
   text-align: center;
   padding: 10px;
   color:#fff;
@@ -202,16 +246,13 @@ aside .widget footer{
 header.primary nav a{
   color: #ffffff;
   text-decoration: none;
-  background-color: rgb(2, 0, 0)
+  background-color: rgb(2, 0, 0);
   padding: 5px 10px;
   border-radius: 20px;
   border: 1px solid #c0c0c0;
   transition:.4s;
 }
 
-header.primary nav a:hover{
-  background-color:rgba(120, 120, 120, 0.8);
-}
 
 table {
   border: 1px solid #c0c0c0;
@@ -295,7 +336,8 @@ dd + dt {
       max-width: 250px;
       margin:auto;
   }
-}
+
+
 header.primary nav a{
   display:block;
 }

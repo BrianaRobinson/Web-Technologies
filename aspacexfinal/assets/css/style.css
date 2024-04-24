@@ -1,0 +1,137 @@
+/* Add <meta name="robots" content="noindex"> to the head of your document to avoid search engines from indexing this page. */
+
+/* ------------------Images and Backgrounds----------------------- */
+body{
+  background-image: url(https://i.makeagif.com/media/11-27-2021/7DE0_V.gif);
+  background-size: 100%;
+  width:100%;
+  height: 100%;
+}
+
+.logo {
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*-------------Box Sizing-------------------*/
+
+html{
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*-----------Global Styling---------*/
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:0;
+  background-color: #000000;
+  color:white;
+  margin: 0;
+}
+
+.main{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+header.primary {
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px #0000005b;
+  padding: 20px 40px 20px 40px;
+  margin: 20px 0 0;
+}
+
+header.primary h1{
+  font-size: 4rem;
+}
+
+
+header.primary h2{
+  margin: 0;
+  font-size: 3rem;
+}
+
+
+header.primary nav{
+  max-width: 900px;
+  margin: 20px auto;
+  font-size:2.2rem;
+}
+
+header.primary nav a{
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgb(2, 0, 0)
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid #c0c0c0;
+  transition:.4s;
+  display:block;
+}
+
+header.primary nav a:hover{
+  background-color:rgba(120, 120, 120, 0.8);
+}
+
+header.primary ul{
+  padding: 10px 0;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header.primary ul li{
+  list-style-type: none;
+}
+
+#colophon {
+  color: white;
+  background-color:#000;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+}
+
+
+
+/* -------------------Responsive Imaging --------------*/
+@media (max-width:600px) {
+  .wrapper-main{
+    width: 100%;
+  }
+}
+
+@media (min-width:601px) {
+  .wrapper-main{
+    width: 100%;
+  }
+} 
+@media (min-width:768px) {
+  .wrapper-main{
+    width: 100%;
+  }
+} 
+@media (min-width:992px) {
+  .wrapper-main{
+    width: 100%;
+  }
+} 
+@media (min-width:1200px) {
+  .wrapper-main{
+    width: 100%;
+  }
+} 
